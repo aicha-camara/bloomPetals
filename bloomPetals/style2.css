@@ -1,0 +1,126 @@
+
+body{
+  margin:0px;
+  padding: 0px; 
+  background-image: url('images/vue-dessus-bel-arrangement-roses.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+  
+
+}
+/* Barre de navigation */
+
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #900a0aac;
+  position: sticky;
+  top: 0;
+
+}
+
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+
+}
+nav .onglets p{
+
+  margin: 20px;
+  cursor:pointer;
+  text-align: center;
+  cursor:pointer;
+}
+a{
+  color: #fafafa; 
+  text-decoration:none;
+  font-size: 30px;
+  display:flex;
+  justify-content: space-between;
+  margin-left: 50px;
+
+
+}
+nav .recherche input{
+  margin: 8px 20px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 30px;
+  border:none;
+  background-color: #f2f2f2;
+  outline:none;
+  
+}
+
+header .titre h1{ 
+font-size: 100px;
+font-weight: bold;
+color: #010101;
+font-family: 'Dancing Script', cursive;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+header .intro{
+border-bottom: 10px solid rgb(255, 253, 253); 
+
+}
+
+header .intro p{
+text-align: center;
+color:rgb(255, 255, 255);
+font-size: 40px;
+font-weight:500;
+}
+
+
+/* contenue */
+
+
+.corps{
+
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+ 
+  .container {
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+ width: 45%; 
+  border: 5px solid #f2f2f2;
+font-family: 'Dancing Script', cursive;
+background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+float: left; 
+border-radius: 20px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 400px;
+  height: auto;
+}
+footer {
+  background-color: #900a0aac;
+  height: 60px; 
+  clear: left;
+}
+
+@media (max-width:767px) {
+  .gallery {
+      column-count:2;
+  }
+  .gallery img {
+      object-fit:cover;
+      height:180px;
+  }
+}

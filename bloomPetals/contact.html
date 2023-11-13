@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BloomPetals</title>
+    <link rel="stylesheet" href="style4.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+</head>
+<body>
+    
+</body>
+</html>
+
+<nav>
+    <div class="onglets">
+        <p class="link"><a href="index.html">Home</a></p>
+        <p class="link"><a href="entreprise.html">Entreprise</a></p>
+        <p class="link"><a href="realisations.html">Realisations</a></p>
+        <p class="link"><a href="contact.html">Contact</a></p>
+    </div>
+
+    <div class="recherche">
+
+        <form>
+          <input type="search" placeholder="Rechercher">
+        </form>
+    </div>   
+</nav>
+
+    <div class="contactez-nous">
+        <h1>Contactez-nous</h1>
+        <p>N'hésitez pas à nous contacter si vous souhaitez solliciter nos services, nous nous efforcerons de répondre rapidement!</p>
+        <form action="/page-traitement-donnees" method="post">
+   
+
+    <div>
+        <label for="civilité">Civilité</label>
+        <select name="civilité" id="civilité" required>
+        <option value="" disabled selected hidden>Choisissez votre civilité</option>
+        <option value="monsieur">Monsieur</option>
+        <option value="madame">Madame</option>
+        <option value="autre">Autre...</option>
+        </select>
+    </div>
+     
+    <div>
+        <label for="nom">Nom</label>
+        <input type="text" id="nom" name="nom" placeholder="Entrer votre nom" required>
+    </div>
+    
+    <div>
+        <label for="prenom">Prenom</label>
+        <input type="text" id="prenom" name="prenom" placeholder="Entrer votre prenom" required>
+    </div>
+    
+    <div>
+        <label for="prenom">Code Postale</label>
+        <input type="text" id="postale" name="postale" placeholder="Entrer votre code postale" required>
+    </div>
+
+        <div>
+            <input type="checkbox" id="politique" name="politique" required>
+            <label for="politique">J'accepte les politiques de confidentialité de l'entreprise</label>
+          </div>
+        
+    <div>
+        <button type="submit">Envoyer</button>
+    </div>
+        </form>
+    </div>
+<footer></footer>
